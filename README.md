@@ -2,7 +2,9 @@
 
 ![Weekly Schedule UI](images/weekly-schedule-ui.png)
 
-The Weekly Schedule Card is a custom card for Home Assistant that allows you to display and manage a weekly schedule for various devices. It supports different input and output formats, but does not contain a schedule executor service (like cron). To understand it better or integrate, enable `devMode`.
+The Weekly Schedule Card is a custom card for Home Assistant that allows you to display and manage a weekly schedule for various devices (like thermostats, air conditioners).
+It supports different input and output formats but does not contain a schedule executor service (like cron).
+To understand it better or integrate it, enable `devMode`.
 
 ## Options
 
@@ -75,7 +77,7 @@ After adding the configuration to your Lovelace dashboard, you can interact with
 ### Developer Mode
 
 - **devMode**: When set to `true`, enables additional options for testing and debugging.
-- **encodingSchema**: Allows you to choose between different encoding schemas (`JSON`, `Devi`, `Bitmask`, `All`) for the schedule data.
+- **encodingSchema**: You can choose between different encoding schemas (`JSON`, `Devi`, `Bitmask`, `All`) for the schedule data.
 - **scheduleOutput**: Displays the current schedule in the selected encoding schema.
 - **applyScheduleButton**: Applies the current schedule to the table.
 
