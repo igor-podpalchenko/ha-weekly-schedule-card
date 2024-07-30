@@ -18,6 +18,10 @@ jobs:
         run: npm install
       - name: Build the project
         run: npm run build
+      - name: Create release directory
+        run: mkdir -p release
+      - name: Copy files to release directory
+        run: cp dist/* release/
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -34,7 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./dist/weekly-schedule-card.js
+          asset_path: ./release/weekly-schedule-card.js
           asset_name: weekly-schedule-card.js
           asset_content_type: application/javascript
 
