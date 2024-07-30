@@ -1,0 +1,8 @@
+{
+  "components": [
+    {
+      "name": "Weekly Schedule Card",
+      "main": "custom_components/weekly-schedule-card/weekly-schedule-card.js"
+    }
+  ]
+}
