@@ -47,7 +47,7 @@ Add the following to your `configuration.yaml` file:
 lovelace:
   mode: yaml
   resources:
-    - url: /hacsfiles/weekly-schedule-card/weekly-schedule-card.js
+    - url: /hacsfiles/ha-weekly-schedule-card/weekly-schedule-card.js
       type: module
 ```
 
