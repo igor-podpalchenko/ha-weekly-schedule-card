@@ -2,6 +2,9 @@
 
 ![Weekly Schedule UI](images/weekly-schedule-ui.png)
 
+[![GitHub Release][gh-release-image]][gh-release-url]
+[![GitHub Downloads][gh-downloads-image]][gh-downloads-url]
+
 The Weekly Schedule Card is a simple custom card for Home Assistant that allows you to display and manage a weekly schedule for various devices (like thermostats, air conditioners).
 It supports different input and output formats but does not contain a schedule executor service (like cron). It might be used with the MQTT device type.
 To understand it better or integrate it, enable `devMode`.
