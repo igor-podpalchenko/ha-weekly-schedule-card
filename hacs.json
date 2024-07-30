@@ -2,7 +2,6 @@
   "name": "Weekly Schedule Card",
   "content_in_root": true,
   "render_readme": true,
-  "domains": ["lovelace"],
   "country": ["ua"],
   "zip_release": false,
   "filename": "weekly-schedule-card.js"
