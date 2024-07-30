@@ -1,4 +1,3 @@
-```markdown
 # Weekly Schedule Card
 
 ![Weekly Schedule UI](images/weekly-schedule-ui.png)
@@ -99,4 +98,3 @@ After adding the configuration to your Lovelace dashboard, you can interact with
 - Check the browser console for any error messages if the card does not render correctly.
 
 By following the instructions above, you can easily integrate and use the Weekly Schedule Card in your Home Assistant setup.
-```
