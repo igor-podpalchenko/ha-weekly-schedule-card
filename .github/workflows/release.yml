@@ -18,10 +18,6 @@ jobs:
         run: npm install
       - name: Build the project
         run: npm run build
-      - name: Create gzipped release file
-        run: |
-          cd dist
-          tar -czvf ../weekly-schedule-card.js.gz weekly-schedule-card.js
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -38,7 +34,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./weekly-schedule-card.js.gz
-          asset_name: weekly-schedule-card.js.gz
-          asset_content_type: application/gzip
-
+          asset_path: ./weekly-schedule-card.js
+          asset_name: weekly-schedule-card.js
+          asset_content_type: application/javascript
