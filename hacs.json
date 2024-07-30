@@ -1,11 +1,6 @@
 {
   "name": "Weekly Schedule Card",
-  "content_in_root": false,
   "render_readme": true,
-  "domains": ["lovelace"],
-  "country": ["us"],
-  "iot_class": "local_polling",
-  "zip_release": false,
   "filename": "dist/weekly-schedule-card.js"
 }
 
