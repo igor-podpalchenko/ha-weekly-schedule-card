@@ -106,10 +106,11 @@ After adding the configuration to your Lovelace dashboard, you can interact with
 - Verify the `entity` and `commandTopic` configurations.
 - Check the browser console for any error messages if the card does not render correctly.
 
+By following the instructions above, you can easily integrate and use the Weekly Schedule Card in your Home Assistant setup.
+
 <!-- Badges -->
 
-[gh-release-url]: https://github.com/denysdovhan/ha-yasno-outages/releases/latest
-[gh-release-image]: https://img.shields.io/github/v/release/denysdovhan/ha-yasno-outages?style=flat-square
-[gh-downloads-url]: https://github.com/denysdovhan/ha-yasno-outages/releases
-[gh-downloads-image]: https://img.shields.io/github/downloads/denysdovhan/ha-yasno-outages/total?style=flat-square
-By following the instructions above, you can easily integrate and use the Weekly Schedule Card in your Home Assistant setup.
+[gh-release-url]: https://github.com/igor-podpalchenko/ha-weekly-schedule-card/releases/latest
+[gh-release-image]: https://img.shields.io/github/v/release/igor-podpalchenko/ha-weekly-schedule-card?style=flat-square
+[gh-downloads-url]: https://github.com/igor-podpalchenko/ha-weekly-schedule-card/releases
+[gh-downloads-image]: https://img.shields.io/github/downloads/igor-podpalchenko/ha-weekly-schedule-card/total?style=flat-square
