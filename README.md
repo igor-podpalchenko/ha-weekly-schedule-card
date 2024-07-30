@@ -54,10 +54,9 @@ lovelace:
 ### HACS Installation
 
 1. Install the card using HACS (Home Assistant Community Store).
-2. Add the resource URL to your Lovelace configuration as shown above.
-   Read: https://hacs.xyz/docs/faq/custom_repositories/
-   Add: https://github.com/igor-podpalchenko/ha-weekly-schedule-card/
-3. Install the weekly schedule card
+2. Add the resource URL to your Lovelace configuration as shown above. (guide: https://hacs.xyz/docs/faq/custom_repositories/)
+3. Add repo URL: https://github.com/igor-podpalchenko/ha-weekly-schedule-card/
+4. Install the weekly schedule card
 
 ## Example Configuration
 
