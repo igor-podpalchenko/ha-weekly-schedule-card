@@ -77,6 +77,8 @@ After adding the configuration to your Lovelace dashboard, you can interact with
 - **scheduleOutput**: Displays the current schedule in the selected encoding schema.
 - **applyScheduleButton**: Applies the current schedule to the table.
 
+<img src="https://github.com/igor-podpalchenko/ha-weekly-schedule-card/blob/main/images/weekly-schedule-dev-mode.png" width="508" height="685" />
+
 ### Encoding Schemas
 
 - **JSON**: Standard JSON format for schedule representation.
