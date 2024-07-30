@@ -1,9 +1,0 @@
-{
-  "name": "weekly schedule card",
-  "filename": "weekly-schedule-card.js",
-  "version": "1.0.0",
-  "documentation": "https://github.com/igor-podpalchenko/ha-weekly-schedule-card",
-  "dependencies": [],
-  "codeowners": ["@igor-podpalchenko"],
-  "requirements": []
-}
